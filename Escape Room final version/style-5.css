@@ -1,0 +1,67 @@
+* {
+    padding: 9px;
+    margin: 9px;
+  }
+
+
+  body {
+    background-image: url(https://hackernoon.imgix.net/images/f2px36fy.gif);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .glow {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  p {
+    color: aliceblue;
+    font-weight: bolder;
+  }
+
+  .room-style {
+    text-align: center;
+  }
+
+  button:hover {
+    margin-top: 7px;
+    width: 9.5%;
+    padding: 12px;
+    cursor: pointer;
+    background-color: #566071;
+    color: white;
+    transition: all 1s ease-in-out;
+    border-radius: 15px;
+  }
+
+  button {
+    width: 150px;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 50px;
+    transition: all 0.5s ease-out;
+  }
+
+  input {
+    padding: 7px;
+    border-radius: 10px;
+  }
+
+  .result {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }

@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 100px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background: url(https://giffiles.alphacoders.com/209/209037.gif);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+ 
+ 
+ 
+  #puzzle-container {
+    margin: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    /* background-color: #055d17; */
+    color: #ffffff;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+ 
+button:hover {
+  margin-top: 7px;
+  width: 13%;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #566071;
+  color: white;
+  transition: all 1s ease-in-out;
+  border-radius: 8px;
+}
+ 
+button{
+width: 100px;
+background-color:blanchedalmond;
+padding: 10px;
+border-radius: 50px;
+transition: all 0.5s ease-out;
+}

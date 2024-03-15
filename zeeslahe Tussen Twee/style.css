@@ -1,0 +1,85 @@
+/* * {
+    color: black;
+    background: url(https://i.redd.it/qt0xqw2e8i9b1.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #edeeed;
+    color: black;
+    background: url(https://i.redd.it/qt0xqw2e8i9b1.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#gameArea {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 12px;
+}
+
+#gameArea .pcGameArea,
+#gameArea .userGameArea {
+    width: 50%;
+    float: left;
+    margin: 0 0 15px 0;
+    padding: 0;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#gameArea .gameField {
+    margin: 5px 15px 0 0;
+    display: block;
+    padding: 0;
+}
+
+#gameArea .gameField div {
+    margin: -1px;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: rgb(150, 197, 204);
+    border: 1px solid #020a0d;
+    text-align: center;
+    color: #6536f4;
+}
+
+#gameArea .gameField div .badge {
+    font-size: 2em;
+    color: #428cb6;
+}
+
+#gameArea .gameField .ship {
+    background-color: rgb(15, 70, 188);
+}
+
+#gameArea .btn {
+    display: block;
+    margin: 0 auto;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    border: 4px solid #0559a3;
+    white-space: nowrap;
+    padding: 40px;
+    line-height: 1.4;
+    border-radius: 50px;
+    user-select: none;
+    font-size: 1em;
+    color: black;
+    background-color: #428bca;
+}

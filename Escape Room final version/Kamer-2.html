@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room</title>
+    <link rel="stylesheet" href="style-.css">
+</head>
+
+<body>
+
+    <div id="puzzle-container">
+        <h1>Kamer 2</h1>
+        <p>In deze kamer bevinden zich drie vlaggen van verschillende landen: Nederland, Italy en France.
+            De deelnemers moeten de juiste hoofdsteden invullen om door te gaan.</p>
+
+        <br>
+
+        <div id="puzzle1">
+            <p>Wat is de hoofdstad van het eerste land met de vlag?:</p>
+            <img
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAGkAngMBIgACEQEDEQH/xAAYAAEAAwEAAAAAAAAAAAAAAAAAAQUGBP/aAAgBAQAAAACuAAAAAAAAAAAAAaEAABagAAAAAAAAA4gAAGVAAAAAAAAAAAAAAAAJ/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAMBBQL/2gAKAgIQAxAAAACPVAAAAAAK84AADZgAAXnoAAKeAAAAAAD/xAAcEAABBQEBAQAAAAAAAAAAAAABAAMEFVOSYFD/2gAIAQEAAT8A8hUMaOKoY0cVQxo4qhjRxVDGjiqGNHFUMaOKoY0cVQxo4qhjRxVDGjiqGNHFUMaOKoY0cVQxo4qhjRxVDGjiqGNHFUMaOKoY0c+7YwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyVYwtxyfSBf/xAAbEQACAwEBAQAAAAAAAAAAAAABUQACERNAMP/aAAgBAgEBPwDyYFMCmBTApgUwKYFMCmBTAvnyqzOVWZyqzOVWZyqzOVWZyqzOVWZyqzOVWfL/AP/EABsRAAIDAQEBAAAAAAAAAAAAAAABAxITUkAw/9oACAEDAQE/APJrJ2zWTtmsnbNZO2ayds1k7ZrJ2zWTtmsnbNZO387suy7Lsuy7Lsuy7Lvy/wD/2Q==">
+            <input type="text" id="answer1" placeholder="Your answer">
+            <button onclick="checkAnswer(1)">Submit</button>
+        </div>
+
+        <div id="puzzle2">
+            <p>Wat is de hoofdstad van het tweede land met de vlag?:</p>
+            <img
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAGQAnwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAABgUE/9oACAEBAAAAANLBBt6wJLnCnnAbesCS5wpp0G3rAkucKecBt6wJLnCnnAbesCS5wpp0G3rAkucKadBt6wJLnCmnQbesCS5wpp0G3rAkucKadBt6wJLnCmnQbesCS5wpJ8G3rAkucKTABtawJLnD/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAMEAgb/2gAKAgIQAxAAAADNjjApbXtDJ6Lnsp46MClte0MnoueynjowKW17Qyei57KeOjApbXtDJ6Lnsp46MClte0MnoueynjowKW17Qyei57KeOjApbXtDJ6Lns//EAB4QAAAHAQEBAQAAAAAAAAAAAAECAwUgNHIEMhRi/9oACAEBAAE/AHATfMbc2nwtoJ9dlfZpOVQ2izafC2gn12V9mk5VDaLNp8LaCfXZX2aTlUNos2nwtoJ9dlfZpOVQ2izafC2gn12V9mk5VDaLNp8LaCfXZX2aTlUNos2nwtoJ9dlfZpOVQ2izafC2gn12V9mk5VDaLNp8LaCfXZX2aTlUNos2nwtoJ9dlfZpOVQ2izafC2gn12V9mk4nAeU2wm0+FtBPrsr7NJwKHyCb9Fm0+FtBPrsr7GX//xAAbEQABBAMAAAAAAAAAAAAAAAABAgMQMiAxcf/aAAgBAgEBPwB6w5LVxgrZl6w5LVxgrZl6w5LVxgrZl6w5LVxgrZl6w5LVxgrZl6w5LVxgrZl6w5LVxgrZn//EAB0RAAEDBQEAAAAAAAAAAAAAAAEDEDMCBCAycXL/2gAIAQMBAT8AuNxx0JBglHR5D3G446EgwSjo8h7jccdCQYJR0eQ9xuOOhIMEo6PIe43HHQkGCUdHkPcbjjoSDBKOjyHuNxx0JBglHR5D/wD/2Q==">
+            <input type="text" id="answer2" placeholder="Your answer">
+            <button onclick="checkAnswer(2)">Submit</button>
+        </div>
+
+        <div id="puzzle3">
+            <p>Wat is de hoofdstad van het derde land met de vlag?:</p>
+            <img
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAGcArAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAABQYB/9oACAEBAAAAAKGUBT1oJ0IHbmQBT1oJ0IHbmQBT1oJ0IHbmQBT1oJsMHbmQBT1oJsMHbmQBT1oJ0IHbmQBT1oJsMHbuPBT1oJ0IHbmQBT1oJsMHbuPBT1oJ0IHbmQBT1oJ0IHbmQBT1oJsMHa+VBT1oJ0IOv//EABkBAQADAQEAAAAAAAAAAAAAAAACAwUEBv/aAAoCAhADEAAAAOurogQln3BVqR6Q0vO9ECEs+4KtSPSGl53ogQln3BVqR6Q0vO9ECEs+4KtSPSGl53ogQln3BVqR6Q0vO9ECEs+4KtSPSGn52+BCWfcFWpHpD//EACEQAAEDBAMAAwAAAAAAAAAAAAIFIDQDMDNycXOxFCTB/9oACAEBAAE/AFQi+DV2/XpE4NDep4A7LCrArch69InBob1TAHZYVYFbkPXpE4NDeqYA7LCrArch69InBob1TAHZYVYFbkPXpE4NDeqYA7LCrArch69InBob1PAHZYVYFbkPXpE4NDeqYA7LCrArch69InBob1TAHZYVYFbkHpE4NDeqYA7LCrArch69InBob1TAHZYVYFbkPXpE4NDeqYA7LCrArch69InBob1TAHZYUw+jV2H16RODQ3qmAOyx/8QAGxEAAQQDAAAAAAAAAAAAAAAAMgECIHEDBBD/2gAIAQIBAT8A1wW+5AdUHlDXBb7kB1QeUNcFvuQHVB5Q1wW+5AdUHlDXBb7kB1QeUNcFvuQHVB5Q1wW+5AdUHlD/xAAdEQABAwUBAAAAAAAAAAAAAAACAQQgEDEyM4Fx/9oACAEDAQE/ADvUckg009gd6jkkGmnsDvUckg009gd6jkkGmnsDvUckg009gd6jkkGmnsDvUckg00p7D//Z">
+            <input type="text" id="answer3" placeholder="Your answer">
+            <button onclick="checkAnswer(3)">Submit</button>
+        </div>
+
+        <button class="nextButton">
+            <a href="kamer-3.html">Ga naar de volgende kamer</a>
+        </button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="main-2.js"></script>
+</body>
+
+</html>

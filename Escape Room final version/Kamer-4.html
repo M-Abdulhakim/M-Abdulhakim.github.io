@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escape Room</title>
+  <link rel="stylesheet" href="style-4.css">
+</head>
+ 
+<body>
+ 
+  <div id="puzzle-container">
+    <h1>Kamer 4</h1>
+    <p>Kun jij alle puzzels oplossen en naar de volgende kamer gaan?</p>
+ 
+    <div id="puzzle1">
+      <p>Puzzel 1: Wat heeft sleutels maar kan geen sloten openen?</p>
+      <input type="text" id="answer1" placeholder="Your answer">
+      <button onclick="checkAnswer(1)">Submit</button>
+    </div>
+ 
+    <div id="puzzle2">
+      <p>Puzzel 2: Ik spreek zonder mond en hoor zonder oren. Ik heb geen lichaam, maar ik kom tot leven met de wind. Wat
+        ben ik?</p>
+      <input type="text" id="answer2" placeholder="Your answer">
+      <button onclick="checkAnswer(2)">Submit</button>
+    </div>
+ 
+    <div id="puzzle3">
+      <p>Puzzel 3: Hoe meer je neemt, hoe meer je achterlaat. Wat ben ik?</p>
+      <input type="text" id="answer3" placeholder="Your answer">
+      <button onclick="checkAnswer(3)">Submit</button>
+    </div>
+ 
+    <div id="result"></div>
+  </div>
+
+  <button class="nextButton">
+    <a href="kamer-5.html">Ga naar de volgende kamer</a>
+</button>
+
+  <script src="main-4.js"></script>
+</body>
+
+ 
+</html>

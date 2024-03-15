@@ -1,0 +1,107 @@
+* {
+  background: url(https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?w=996&t=st=1696068289~exp=1696068889~hmac=98423b9651f388e201a73f3ceba3e254e204f1567af52d7902e5ca40b6898be1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* font-family: 'Tangerine', serif;
+  font-size: 30px;
+  text-shadow: 4px 4px 4px #aaa; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  color: #333333;
+}
+
+
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Set a maximum width for better flexibility */
+  margin: 0 auto; /* Center the content */
+  background-color: #683edb;
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+.dices,
+.headings,
+.credits,
+.dices-computer-player,
+.dices-player,
+.controls,
+.message {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust based on your preference */
+}
+
+.dices,
+.headings,
+.credits {
+  background-color: #00c874;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px; /* Add some space between these elements */
+}
+
+.headings {
+  border-radius: 50%;
+}
+
+.credits {
+  background-color: #7110a6;
+}
+
+.text-center {
+  text-align: center;
+  color: white;
+}
+
+.message-box {
+  background-color: #3e1b80;
+  border: 5px solid rgb(22, 172, 189);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px 0; /* Adjust vertical margin */
+}
+
+.controls {
+  background-color: #167141;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px; /* Space between controls and other elements */
+}
+
+.dice {
+  font-size: 5em; /* Relative size for better flexibility */
+  color: #e02076;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+button {
+  width: 100%;
+  font-size: 1.2em; /* Adjusted font size for better responsiveness */
+  padding: 15px;
+  background-color: #76096b;
+  color: #efefef;
+  border-radius: 20px;
+  border: 2px solid rgb(22, 172, 189);
+  margin-top: 10px; /* Space between buttons */
+}
+
+@media screen and (max-width: 768px) {
+  .dices,
+  .headings,
+  .credits,
+  .dices-computer-player,
+  .dices-player,
+  .controls,
+  .message {
+    flex-direction: column; /* Adjust layout for smaller screens */
+  }
+}
