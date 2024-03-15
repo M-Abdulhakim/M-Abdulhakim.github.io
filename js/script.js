@@ -157,3 +157,26 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const main = document.querySelector(".project-item-icon-box");
+
+  let clickedOnce = false;
+
+  main.addEventListener("click", function () {
+      if (!clickedOnce) {
+          showMessage("Click again to continue.");
+          clickedOnce = true;
+      } else {
+          window.location.href = "";
+      }
+  });
+
+  function showMessage(message) {
+      const messageDiv = document.createElement("h1");
+      messageDiv.className = "message";
+      messageDiv.textContent = message;
+      main.appendChild(messageDiv);
+  }
+
+});
