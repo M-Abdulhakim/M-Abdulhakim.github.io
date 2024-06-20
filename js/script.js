@@ -150,7 +150,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
         navigationLinks[i].classList.add("actwive");
         window.scrollTo(0, 0);
       } else {
-        pages[i].classList.remove("active");
+        pages[i].classList.remove("actiwve");
         navigationLinks[i].classList.remove("active");
       }
     }
